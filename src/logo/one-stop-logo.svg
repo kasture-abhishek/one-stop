@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="body" x1="8%" y1="8%" x2="92%" y2="92%">
+      <stop offset="0%" stop-color="#FFB300"/>
+      <stop offset="45%" stop-color="#FF7A00"/>
+      <stop offset="100%" stop-color="#FF3D00"/>
+    </linearGradient>
+    <linearGradient id="leafL" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD21A"/>
+      <stop offset="100%" stop-color="#FF6A00"/>
+    </linearGradient>
+    <linearGradient id="leafR" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD21A"/>
+      <stop offset="100%" stop-color="#FF5A00"/>
+    </linearGradient>
+    <linearGradient id="inner" x1="15%" y1="10%" x2="85%" y2="90%">
+      <stop offset="0%" stop-color="#FF9D00"/>
+      <stop offset="100%" stop-color="#FF4A00"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main One Stop emblem -->
+  <path d="M256 143
+           C178 143 112 194 106 269
+           C99 348 151 409 218 463
+           C235 477 247 487 256 493
+           C265 487 277 477 294 463
+           C361 409 413 348 406 269
+           C400 194 334 143 256 143Z"
+        fill="url(#body)"/>
+
+  <!-- Subtle right-side fold -->
+  <path d="M335 190
+           C379 222 393 265 384 313
+           C375 359 343 400 294 443
+           C311 407 321 366 321 321
+           C321 265 324 222 335 190Z"
+        fill="#E93413" opacity=".16"/>
+
+  <!-- Central O -->
+  <circle cx="256" cy="291" r="82" fill="#fff"/>
+  <circle cx="256" cy="291" r="46" fill="url(#inner)"/>
+
+  <!-- Left leaf -->
+  <path d="M249 139
+           C209 137 166 117 158 82
+           C151 53 177 35 207 44
+           C238 54 258 91 249 139Z"
+        fill="url(#leafL)"/>
+
+  <!-- Right leaf -->
+  <path d="M264 139
+           C268 92 294 43 342 34
+           C373 28 391 47 383 75
+           C372 112 325 136 264 139Z"
+        fill="url(#leafR)"/>
+
+  <!-- Small highlight on leaves -->
+  <path d="M170 72 C186 55 208 57 226 72 C207 67 188 68 170 72Z"
+        fill="#FFE36A" opacity=".45"/>
+  <path d="M301 65 C322 48 349 44 366 53 C344 55 323 62 301 65Z"
+        fill="#FFE36A" opacity=".42"/>
+</svg>

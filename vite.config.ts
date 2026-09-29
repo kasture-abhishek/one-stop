@@ -5,7 +5,7 @@ import { tanstackStart } from "@tanstack/react-start/plugin/vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  plugins: [tanstackStart(), tailwindcss(), react()],
+  plugins: [tanstackStart(), tailwindcss(),nitro(), react()],
   resolve: {
     tsconfigPaths: true,
   },
